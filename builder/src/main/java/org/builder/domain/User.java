@@ -1,7 +1,9 @@
 package org.builder.domain;
 
-import org.builder.builders.Builder;
+import lombok.AccessLevel;
+import lombok.Builder;
 
+@Builder(access = AccessLevel.PUBLIC)
 public class User {
 
     private Long id;

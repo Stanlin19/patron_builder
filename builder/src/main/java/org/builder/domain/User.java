@@ -20,7 +20,7 @@ public class User {
         this.rol = rol;
     }
 
-    public static class Builder implements org.builder.builders.Builder {
+    /*public static class Builder implements org.builder.builders.Builder {
 
         private Long id;
         private String username;
@@ -62,7 +62,7 @@ public class User {
         public User build() {
             return new User(id, username, password, email, rol);
         }
-    }
+    }*/
 
     public Long getId() {
         return id;
